@@ -13,6 +13,9 @@ export const SplashScreen = () => {
     useNavigation<
       StackNavigationProp<AuthStackParamList, ScreenNameAuth.LOGIN>
     >();
+  const navigateToLogin = () => {
+    navigate(ScreenNameAuth.LOGIN);
+  };
   return (
     <ScrollView
       contentContainerStyle={styles.contentContainerStyle}
@@ -31,9 +34,7 @@ export const SplashScreen = () => {
         </Text>
       </View>
       <View style={styles.buttonContainer}>
-        <TouchableOpacity
-          style={styles.nextButton}
-          onPress={() => navigate(ScreenNameAuth.LOGIN)}>
+        <TouchableOpacity style={styles.nextButton} onPress={navigateToLogin}>
           <ArrowIcon />
         </TouchableOpacity>
       </View>
