@@ -1,8 +1,7 @@
+import RootStack from '@navigation/root-stack';
+import {initTranslations} from '@utils/translations';
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-
-import {initTranslations} from './src/utils/translations';
-import RootStack from './src/navigation/root-stack';
 
 initTranslations();
 

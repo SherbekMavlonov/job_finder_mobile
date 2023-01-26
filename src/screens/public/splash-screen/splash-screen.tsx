@@ -2,14 +2,11 @@ import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {ScrollView, Text, TouchableOpacity, View} from 'react-native';
 import {StackNavigationProp} from '@react-navigation/stack';
-import {
-  ArrowIcon,
-  SplashScreenIcon,
-} from '../../../assets/images/public_images';
-import {PaddingBottom} from '../../../components/atoms/padding-bottom';
+import {ArrowIcon, SplashScreenIcon} from '@assets/images/public_images';
+import {PaddingBottom} from '@components/atoms/padding-bottom';
 import {styles} from './splash-screen-style';
-import {ScreenNameAuth} from '../../../constants/navigation';
-import {AuthStackParamList} from '../../../navigation/auth-stack';
+import {ScreenNameAuth} from '@constants/navigation';
+import {AuthStackParamList} from '@navigation/auth-stack';
 
 export const SplashScreen = () => {
   const {navigate} =
