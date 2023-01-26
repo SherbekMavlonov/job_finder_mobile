@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* jobfinder_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* jobfinder_mobileTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-jobfinder_mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-jobfinder_mobile.a */; };
+		0EBDC3A6E4EF48AC9A4338FE /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0B8B72A6F1C49FCA7235F44 /* DMSans-Italic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8D5C635F452344D291797A1D /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9B15CBEEE24048814EE710 /* DMSans-Regular.ttf */; };
+		A1ABB2FAD2E741F1AD25B449 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C032FD4D50B48F5B1E217F1 /* DMSans-Bold.ttf */; };
+		BA622FC5AE394DFDA00466CC /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714460B868674BE4AF3B60A1 /* DMSans-MediumItalic.ttf */; };
+		BDA2C4E57F2B4D8797894479 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C0667D4C740427C8F9B7C0F /* DMSans-BoldItalic.ttf */; };
+		C7FADD36DA7C41B09D886BF3 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = F97DFA36BDF148EC8BD09496 /* OFL.txt */; };
+		FA30E9C2E3FE4B19AADC3FFA /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49A843C698604646929C7BFD /* DMSans-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +45,19 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = jobfinder_mobile/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jobfinder_mobile-jobfinder_mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-jobfinder_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile.debug.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		49A843C698604646929C7BFD /* DMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Medium.ttf"; path = "../src/assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-jobfinder_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile.release.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0667D4C740427C8F9B7C0F /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BoldItalic.ttf"; path = "../src/assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-jobfinder_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jobfinder_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		714460B868674BE4AF3B60A1 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-MediumItalic.ttf"; path = "../src/assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = jobfinder_mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C032FD4D50B48F5B1E217F1 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../src/assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		AD9B15CBEEE24048814EE710 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../src/assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		D0B8B72A6F1C49FCA7235F44 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../src/assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F97DFA36BDF148EC8BD09496 /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = ../src/assets/fonts/OFL.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E79C06750D04EB9A28875A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C032FD4D50B48F5B1E217F1 /* DMSans-Bold.ttf */,
+				5C0667D4C740427C8F9B7C0F /* DMSans-BoldItalic.ttf */,
+				D0B8B72A6F1C49FCA7235F44 /* DMSans-Italic.ttf */,
+				49A843C698604646929C7BFD /* DMSans-Medium.ttf */,
+				714460B868674BE4AF3B60A1 /* DMSans-MediumItalic.ttf */,
+				AD9B15CBEEE24048814EE710 /* DMSans-Regular.ttf */,
+				F97DFA36BDF148EC8BD09496 /* OFL.txt */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +151,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7E79C06750D04EB9A28875A9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +274,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A1ABB2FAD2E741F1AD25B449 /* DMSans-Bold.ttf in Resources */,
+				BDA2C4E57F2B4D8797894479 /* DMSans-BoldItalic.ttf in Resources */,
+				0EBDC3A6E4EF48AC9A4338FE /* DMSans-Italic.ttf in Resources */,
+				FA30E9C2E3FE4B19AADC3FFA /* DMSans-Medium.ttf in Resources */,
+				BA622FC5AE394DFDA00466CC /* DMSans-MediumItalic.ttf in Resources */,
+				8D5C635F452344D291797A1D /* DMSans-Regular.ttf in Resources */,
+				C7FADD36DA7C41B09D886BF3 /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
