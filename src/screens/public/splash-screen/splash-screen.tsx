@@ -1,13 +1,21 @@
+import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {ScrollView, Text, TouchableOpacity, View} from 'react-native';
+import {StackNavigationProp} from '@react-navigation/stack';
 import {
   ArrowIcon,
   SplashScreenIcon,
 } from '../../../assets/images/public_images';
 import {PaddingBottom} from '../../../components/atoms/padding-bottom';
 import {styles} from './splash-screen-style';
+import {ScreenNameAuth} from '../../../constants/navigation';
+import {AuthStackParamList} from '../../../navigation/auth-stack';
 
 export const SplashScreen = () => {
+  const {navigate} =
+    useNavigation<
+      StackNavigationProp<AuthStackParamList, ScreenNameAuth.LOGIN>
+    >();
   return (
     <ScrollView
       contentContainerStyle={styles.contentContainerStyle}
@@ -26,7 +34,9 @@ export const SplashScreen = () => {
         </Text>
       </View>
       <View style={styles.buttonContainer}>
-        <TouchableOpacity style={styles.nextButton}>
+        <TouchableOpacity
+          style={styles.nextButton}
+          onPress={() => navigate(ScreenNameAuth.LOGIN)}>
           <ArrowIcon />
         </TouchableOpacity>
       </View>

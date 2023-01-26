@@ -1,17 +1,21 @@
 import React from 'react';
-import {View, Text, SafeAreaView, TouchableOpacity} from 'react-native';
-import {SplashScreen} from './src/screens/public/splash-screen';
+import {SafeAreaView, StyleSheet} from 'react-native';
 
-import {useForceUpdate} from './src/utils/hooks/force-update';
-import {i18n, initTranslations} from './src/utils/translations';
+import {initTranslations} from './src/utils/translations';
+import RootStack from './src/navigation/root-stack';
 
 initTranslations();
 
 export default () => {
-  const forceUpdate = useForceUpdate();
   return (
-    <SafeAreaView>
-      <SplashScreen />
+    <SafeAreaView style={styles.container}>
+      <RootStack />
     </SafeAreaView>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
