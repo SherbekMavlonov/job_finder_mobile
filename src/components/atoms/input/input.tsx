@@ -40,6 +40,7 @@ export const BaseInput = ({
           maxHeight: 50,
           backgroundColor: '#fff',
           paddingHorizontal: 15,
+          paddingVertical: 17,
           fontSize: 12,
           lineHeight: 16,
           fontWeight: '400',
