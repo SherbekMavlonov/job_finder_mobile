@@ -4,7 +4,7 @@ import {Text, TextInput, TouchableOpacity, View} from 'react-native';
 import {styles} from './input.style';
 
 type Props = {
-  variant?: 'never' | 'password';
+  variant?: 'password';
   plaseholderText: string;
   value: string;
   setValue: (e: any) => void;
