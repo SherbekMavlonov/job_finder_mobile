@@ -12,10 +12,17 @@ export const Login = () => {
       }}>
       <Text>Login</Text>
       <BaseInput
-        plaseholderText="Test"
+        plaseholderText="mavlonovsherbek43@gmail.com"
         value={value}
         setValue={setValue}
         label="Email"
+      />
+      <BaseInput
+        variant="password"
+        plaseholderText="Password"
+        value={value}
+        setValue={setValue}
+        label="Password"
       />
     </View>
   );
