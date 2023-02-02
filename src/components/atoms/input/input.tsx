@@ -23,7 +23,7 @@ export const BaseInput = ({
     setShowPassword(prev => !prev);
   };
   return (
-    <>
+    <View>
       <Text style={styles.label}>{label}</Text>
       <View style={styles.inputContainer}>
         <TextInput
@@ -41,6 +41,6 @@ export const BaseInput = ({
           </TouchableOpacity>
         ) : null}
       </View>
-    </>
+    </View>
   );
 };

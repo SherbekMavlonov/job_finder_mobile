@@ -15,6 +15,11 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     maxHeight: 50,
     position: 'relative',
+
+    shadowColor: 'rgba(153, 171, 198, 0.28)',
+    shadowOffset: {width: 0, height: 1},
+    shadowOpacity: 1,
+    shadowRadius: 15,
   },
   input: {
     width: '100%',
