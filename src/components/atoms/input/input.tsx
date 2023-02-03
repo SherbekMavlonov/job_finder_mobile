@@ -2,6 +2,7 @@ import {EyeIcon} from '@assets/images/public_images';
 import React from 'react';
 import {Text, TextInput, TouchableOpacity, View} from 'react-native';
 import {styles} from './input.style';
+import {Shadow} from 'react-native-shadow-2';
 
 type Props = {
   variant?: 'password';
@@ -25,7 +26,11 @@ export const BaseInput = ({
   return (
     <View>
       <Text style={styles.label}>{label}</Text>
-      <View style={styles.inputContainer}>
+      <Shadow
+        style={styles.inputContainer}
+        startColor={'rgba(153, 171, 198, 0.18)'}
+        endColor="rgba(153, 171, 198, 0.18)"
+        distance={62}>
         <TextInput
           placeholder={plaseholderText}
           style={styles.input}
@@ -40,7 +45,7 @@ export const BaseInput = ({
             <EyeIcon isOpen={!showPassword} />
           </TouchableOpacity>
         ) : null}
-      </View>
+      </Shadow>
     </View>
   );
 };

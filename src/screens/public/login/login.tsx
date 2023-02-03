@@ -55,6 +55,11 @@ export const Login = () => {
         setValue={setValue}
         label="Password"
       />
+      <View
+        style={{
+          marginBottom: 41,
+        }}
+      />
     </KeyboardAwareScrollView>
   );
 };
