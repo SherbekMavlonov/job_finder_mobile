@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* jobfinder_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* jobfinder_mobileTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-jobfinder_mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-jobfinder_mobile.a */; };
 		0EBDC3A6E4EF48AC9A4338FE /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0B8B72A6F1C49FCA7235F44 /* DMSans-Italic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */; };
+		4C5EE3AF283D919E31BF1D84 /* libPods-jobfinder_mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578497F97C6BF2FF9691AB04 /* libPods-jobfinder_mobile.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8D5C635F452344D291797A1D /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD9B15CBEEE24048814EE710 /* DMSans-Regular.ttf */; };
+		9CF418D549B13E90DAF6263B /* libPods-jobfinder_mobile-jobfinder_mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E53B5DEA44A0EB365122D523 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */; };
 		A1ABB2FAD2E741F1AD25B449 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C032FD4D50B48F5B1E217F1 /* DMSans-Bold.ttf */; };
 		BA622FC5AE394DFDA00466CC /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714460B868674BE4AF3B60A1 /* DMSans-MediumItalic.ttf */; };
 		BDA2C4E57F2B4D8797894479 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C0667D4C740427C8F9B7C0F /* DMSans-BoldItalic.ttf */; };
@@ -44,22 +44,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = jobfinder_mobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = jobfinder_mobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = jobfinder_mobile/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jobfinder_mobile-jobfinder_mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-jobfinder_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile.debug.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		483B00A8E5D5ECD4C33CE5D8 /* Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49A843C698604646929C7BFD /* DMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Medium.ttf"; path = "../src/assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-jobfinder_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile.release.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50EEEA426016A6882DF91236 /* Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		578497F97C6BF2FF9691AB04 /* libPods-jobfinder_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jobfinder_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0667D4C740427C8F9B7C0F /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BoldItalic.ttf"; path = "../src/assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-jobfinder_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jobfinder_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		714460B868674BE4AF3B60A1 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-MediumItalic.ttf"; path = "../src/assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = jobfinder_mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C032FD4D50B48F5B1E217F1 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../src/assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		AD9B15CBEEE24048814EE710 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../src/assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		C1FB707FB5C619BE38031B94 /* Pods-jobfinder_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile.release.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile.release.xcconfig"; sourceTree = "<group>"; };
 		D0B8B72A6F1C49FCA7235F44 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../src/assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		E53B5DEA44A0EB365122D523 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jobfinder_mobile-jobfinder_mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F04D8242298316B50091DBC8 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = "Pods/OpenSSL-Universal/Frameworks/OpenSSL.xcframework"; sourceTree = "<group>"; };
 		F97DFA36BDF148EC8BD09496 /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = ../src/assets/fonts/OFL.txt; sourceTree = "<group>"; };
+		FC68626AD0CF3F8476374F69 /* Pods-jobfinder_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jobfinder_mobile.debug.xcconfig"; path = "Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a in Frameworks */,
+				9CF418D549B13E90DAF6263B /* libPods-jobfinder_mobile-jobfinder_mobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04D8243298316B50091DBC8 /* OpenSSL.xcframework in Frameworks */,
-				0C80B921A6F3F58F76C31292 /* libPods-jobfinder_mobile.a in Frameworks */,
+				4C5EE3AF283D919E31BF1D84 /* libPods-jobfinder_mobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +118,8 @@
 			children = (
 				F04D8242298316B50091DBC8 /* OpenSSL.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-jobfinder_mobile.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */,
+				578497F97C6BF2FF9691AB04 /* libPods-jobfinder_mobile.a */,
+				E53B5DEA44A0EB365122D523 /* libPods-jobfinder_mobile-jobfinder_mobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,10 +173,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-jobfinder_mobile.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-jobfinder_mobile.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig */,
+				FC68626AD0CF3F8476374F69 /* Pods-jobfinder_mobile.debug.xcconfig */,
+				C1FB707FB5C619BE38031B94 /* Pods-jobfinder_mobile.release.xcconfig */,
+				483B00A8E5D5ECD4C33CE5D8 /* Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig */,
+				50EEEA426016A6882DF91236 /* Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -188,12 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "jobfinder_mobileTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				E3B3F988621A9D3CB53321A9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				0DDB2BE6C8B0ED2051553B71 /* [CP] Embed Pods Frameworks */,
+				30D56A05B32AF040A47DE5F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,14 +209,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jobfinder_mobile" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				F4E9C58957239691C07542E9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				460B770DF406E8DFDF8FCF56 /* [CP] Embed Pods Frameworks */,
+				B4B5BC76C3461AF879C32F14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +306,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		0DDB2BE6C8B0ED2051553B71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D56A05B32AF040A47DE5F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460B770DF406E8DFDF8FCF56 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,7 +357,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		B4B5BC76C3461AF879C32F14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B3F988621A9D3CB53321A9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,7 +396,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		F4E9C58957239691C07542E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,57 +416,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile/Pods-jobfinder_mobile-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jobfinder_mobile-jobfinder_mobileTests/Pods-jobfinder_mobile-jobfinder_mobileTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -470,7 +470,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig */;
+			baseConfigurationReference = 483B00A8E5D5ECD4C33CE5D8 /* Pods-jobfinder_mobile-jobfinder_mobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -497,7 +497,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig */;
+			baseConfigurationReference = 50EEEA426016A6882DF91236 /* Pods-jobfinder_mobile-jobfinder_mobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -521,7 +521,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-jobfinder_mobile.debug.xcconfig */;
+			baseConfigurationReference = FC68626AD0CF3F8476374F69 /* Pods-jobfinder_mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -548,7 +548,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-jobfinder_mobile.release.xcconfig */;
+			baseConfigurationReference = C1FB707FB5C619BE38031B94 /* Pods-jobfinder_mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -30,7 +30,7 @@ export const BaseInput = ({
         style={styles.inputContainer}
         startColor={'rgba(153, 171, 198, 0.18)'}
         endColor="rgba(153, 171, 198, 0.18)"
-        distance={62}>
+        distance={1}>
         <TextInput
           placeholder={plaseholderText}
           style={styles.input}
